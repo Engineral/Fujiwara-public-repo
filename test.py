@@ -21,7 +21,12 @@ client = discord.Client(intents=intents)
 
 
 
-### @client.event (unknown)
+"""
+@event
+A decorator that registers an event to listen to.
+@client.event
+The client awaits an event via async.
+"""
 # This outputs in the terminal when this file has been successfully activated
 # Client, the object, is initialized earlier via 'discord.py/discord/client.py'
 # User, the object property, is, for lack of better description, the name (string value) of the client.
