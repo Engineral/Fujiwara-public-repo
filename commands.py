@@ -2,6 +2,7 @@ import discord as dpy
 from datetime import *
 
 token = 'nul'   # Replace nul with corresponding token
+prefix = '&'
 
 intents = dpy.Intents.default()
 intents.message_content = True
@@ -17,8 +18,9 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
-    if message.content.startswith('$hello'):
+    if message.content.startswith(prefix + 'hello'):
         await message.channel.send('Hello!')
+
 
 bot.run(token)
 
