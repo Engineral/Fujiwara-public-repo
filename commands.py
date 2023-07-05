@@ -2,7 +2,7 @@ import discord as dpy
 from datetime import *
 
 token = 'nul'   # Replace nul with corresponding token
-prefix = '&'
+prefix = '+'
 
 intents = dpy.Intents.default()
 intents.message_content = True
