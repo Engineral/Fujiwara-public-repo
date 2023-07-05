@@ -1,0 +1,1 @@
+# This file has functions to define flipping a coin or rolling a dice with a size of a given input.
